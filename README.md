@@ -8,6 +8,9 @@ Validate a site's `llms.txt` and `llms-full.txt` against the [llmstxt.org](https
 npx llms-txt-validator llmstxt.org
 ```
 
+> Until the npm release is out, run it straight from GitHub: `npx github:nicoceron/llms-txt-validator …`
+
+
 ```
 https://llmstxt.org/llms.txt (HTTP 200, text/plain; charset=utf-8)
 ✓ pass llms.txt      All 3 checked links answer.

@@ -3,22 +3,54 @@
   "version": "0.1.0",
   "description": "Validate a site's llms.txt and llms-full.txt against the llmstxt.org format and check that every link answers. CLI and library, no dependencies.",
   "type": "module",
-  "bin": { "llms-txt-validator": "dist/cli.js" },
+  "bin": {
+    "llms-txt-validator": "dist/cli.js"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
-  "files": ["dist", "README.md", "LICENSE"],
-  "engines": { "node": ">=18" },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc",
     "test": "tsc && node --test test/",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "prepare": "tsc"
   },
-  "keywords": ["llms.txt", "llms-full.txt", "llmstxt", "validator", "linter", "ai", "seo", "geo", "cli"],
+  "keywords": [
+    "llms.txt",
+    "llms-full.txt",
+    "llmstxt",
+    "validator",
+    "linter",
+    "ai",
+    "seo",
+    "geo",
+    "cli"
+  ],
   "homepage": "https://dardo.studio/tools/llms-txt-validator/",
-  "repository": { "type": "git", "url": "git+https://github.com/nicoceron/llms-txt-validator.git" },
-  "bugs": { "url": "https://github.com/nicoceron/llms-txt-validator/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoceron/llms-txt-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicoceron/llms-txt-validator/issues"
+  },
   "author": "Nicolás Cerón <nico@dardo.studio> (https://dardo.studio)",
   "license": "MIT",
-  "devDependencies": { "@types/node": "^22.10.0", "typescript": "^5.7.0" }
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
 }
