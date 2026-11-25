@@ -1,2 +1,8 @@
 node_modules/
 dist/
+
+# Local hygiene
+.DS_Store
+.env
+.env.*
+!.env.example
