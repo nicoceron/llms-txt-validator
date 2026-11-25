@@ -1,5 +1,9 @@
 # llms-txt-validator
 
+[![CI](https://github.com/nicoceron/llms-txt-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/nicoceron/llms-txt-validator/actions/workflows/ci.yml)
+[![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Validate a site's `llms.txt` and `llms-full.txt` against the [llmstxt.org](https://llmstxt.org/) format, and check that every link it lists actually answers. A CLI and a small library with no dependencies.
 
 **Prefer a browser?** The same checks run at [dardo.studio/tools/llms-txt-validator](https://dardo.studio/tools/llms-txt-validator/), together with which AI crawlers your robots.txt lets in.
